@@ -1,0 +1,46 @@
+{
+  "name": "basic-flow",
+  "version": "1.0.0",
+  "description": "A basic starting point with create-react-app and flow",
+  "author": "Justin McKay",
+  "license": "MIT",
+  "standard": {
+    "env": [
+      "jest"
+    ],
+    "globals": [
+      "URL",
+      "fetch",
+      "test",
+      "expect"
+    ],
+    "ignore": [
+      "/server/",
+      "/public/MathJax/",
+      "flow-typed"
+    ],
+    "plugins": [
+      "flowtype"
+    ],
+    "parser": "babel-eslint"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "standard": "standard",
+    "flow": "flow"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint-plugin-flowtype": "^2.41.0",
+    "flow-bin": "^0.63.1",
+    "standard": "^10.0.3"
+  }
+}
